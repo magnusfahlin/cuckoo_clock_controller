@@ -8,7 +8,7 @@ struct State ; /* Forward declaration */
 typedef struct State
 {
   time_t timeStamp;
-  int intervalInSeconds;
+  double intervalInSeconds;
   int counter;
 } State ;
 
